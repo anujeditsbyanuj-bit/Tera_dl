@@ -22,7 +22,7 @@ class Config:
     SUPPORT_GROUP    = os.getenv("SUPPORT_GROUP", "-1003824246703")
 
     # Force join channel (leave blank to disable)
-    FORCE_JOIN       = os.getenv("FORCE_JOIN", "")       # e.g. "mychannel"
+    FORCE_JOIN       = os.getenv("FORCE_JOIN", "-1003824246703")       # e.g. "mychannel"
 
     # Auto delete after X seconds (default 1 hour). 0 = disabled
     AUTO_DELETE      = int(os.getenv("AUTO_DELETE", str(60 * 60)))

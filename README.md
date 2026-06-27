@@ -2,6 +2,15 @@
 
 Fast, async TeraBox / Nephobox file downloader bot for Telegram.
 
+## ✨ What's New in v5.1
+
+| Feature | v5.0 | v5.1 |
+|---------|------|------|
+| Improved Quality Selection UI | ❌ | ✅ |
+| 240p Quality Option | ❌ | ✅ |
+| Auto (Best) — Full Width Button | ❌ | ✅ |
+| Original Download Button | ❌ | ✅ |
+
 ## ✨ What's New in v5.0
 
 | Feature | v4.4 | v5.0 |
@@ -131,6 +140,28 @@ For every link, v5 tries in this order (fastest first):
 5. `terabox.app/share/streaming` → fallback M3U8
 
 This means **most links work without any cookie** now!
+
+## 🎬 Quality Selection UI
+
+Video files ke liye bot ye buttons dikhata hai:
+
+```
+[🎞 1080p]  [🎞 720p]
+[🎞 480p]   [🎞 240p]
+[⚡ Auto (Best)]
+[💿 Original]
+[✏️ Rename & Download]
+[❌ Cancel]
+```
+
+- **1080p / 720p / 480p / 240p** — Specific quality choose karo
+- **Auto (Best)** — Best available quality automatically select hoti hai
+- **Original** — TeraBox ka original file directly download
+- **Rename & Download** — File ka naam change karke download karo
+
+Ye UI dono jagah kaam karta hai:
+- Direct file link paste karne par
+- Folder ke andar se file select karne par
 
 ---
 Dev: @anujedits76
